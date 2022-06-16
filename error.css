@@ -1,0 +1,77 @@
+input:required:invalid {
+    content: attr(data-error);
+    outline: none;
+    font-size: 0.7em;
+    color: hsl(0, 90%, 67%);
+    background-image: url('icon-error.svg');
+    background-size: 8%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+input:invalid+span {
+    display: inline;
+    color: hsl(0, 100%, 74%);
+    float: right;
+    font-size: 14px;
+}
+
+input:invalid {
+    outline: none;
+    border: none;
+    border: 1px solid hsl(154, 59%, 31%);
+}
+
+span {
+    display: none;
+}
+
+.input[data-error] .input-1 {
+    content: attr(data-error);
+    font-size: 0.7em;
+    color: hsl(0, 90%, 67%);
+    background-image: url('icon-error.svg');
+    background-size: 8%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.input[data-error2] .input-1 {
+    content: attr(data-error2);
+    font-size: 0.7em;
+    color: hsl(0, 90%, 67%);
+    background-image: url('icon-error.svg');
+    background-size: 8%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+/* .input[data-error]:required:invalid {
+    content: attr(data-error2);
+    border-color: hsl(0, 90%, 67%);
+    background-image: url('icon-error.svg');
+    background-size: 8%;
+    background-position: 90% 5%;
+    background-repeat: no-repeat;
+    [data-error3]
+} */
+
+.input[data-error3] .input-1 {
+    content: attr(data-error3);
+    border-color: hsl(0, 90%, 67%);
+    background-image: url('icon-error.svg');
+    background-size: 8%;
+    background-position: 90% 5%;
+    background-repeat: no-repeat;
+}
+
+.input[data-error4] .input-1 {
+    content: attr(data-error4);
+    border-color: hsl(0, 90%, 67%);
+    background-image: url('icon-error.svg');
+    background-size: 8%;
+    background-position: 90% 5%;
+    background-repeat: no-repeat;
+}
