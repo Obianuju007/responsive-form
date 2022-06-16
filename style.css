@@ -6,7 +6,7 @@
 
 body {
     background-color: hsl(0, 100%, 74%);
-    font-family: poppings;
+    font-family: 'Poppins', sans-serif;
     background-image: url('images/bg-intro-desktop.png');
     background-position: center;
     background-size: cover;
@@ -36,7 +36,6 @@ main {
 
 main .container {
     display: flex;
-    flex-direction: row;
     flex: 1;
     margin: 0 auto;
     padding: 70px;
@@ -86,6 +85,8 @@ input {
     border: 0px;
     width: 100%;
     padding: 12px;
+    margin-bottom: 20px;
+    /* margin: 20px; */
     text-align: center;
     box-shadow: 1px 2.1px rgba(0, 0, 0, 0.158);
     color: rgba(255, 255, 255, 0.589);
@@ -118,9 +119,16 @@ h6 {
     color: rgba(0, 0, 0, 0.514);
 }
 
-@media only screen and (max-width: 395px) {
+@media only screen and (max-width: 600px) {
     #top {
         padding: 15px;
+    }
+    h6 {
+        font-size: 0.5em;
+        /* display: flex; */
+    }
+    #col-change {
+        font-size: small;
     }
     main .container {
         width: 90%;
