@@ -168,6 +168,7 @@ input {
     }
 }   main .container .slide2 form #bottom {
         padding:20px;
+        border-radius: 5px;
 }
 
 footer {
