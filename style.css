@@ -114,8 +114,11 @@ input {
     color: hsl(0, 90%, 67%);
 }
 
-h6 {
-    padding-top: 10px;
+.slide2 h6 {
+    font-weight: 100;
+    font-size: 0.8em;
+    padding: auto;
+/*  padding-top: 10px; */
     color: rgba(0, 0, 0, 0.514);
 }
 
