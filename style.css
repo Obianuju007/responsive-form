@@ -166,6 +166,8 @@ input {
         justify-content: center;
         align-items: center;
     }
+}   main .container .slide2 form #bottom {
+        padding:20px;
 }
 
 footer {
