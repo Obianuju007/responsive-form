@@ -8,14 +8,14 @@ body {
     background-color: hsl(193, 100%, 96%);
     background-image: url('images/bg-hero-desktop.svg');
     background-blend-mode: overlay;
+    /* font-family: 'Inconsolata', monospace; */
+    font-family: 'Poppins', sans-serif;
     /* overflow: auto; */
     /* position: relative; */
 }
 
 header {
     padding: 1em;
-    font-family: 'Inconsolata', monospace;
-    font-family: 'Poppins', sans-serif;
     display: flex;
 }
 
@@ -294,6 +294,7 @@ main .hero {
 }
 
 .footer .footer-content {
+    padding-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
@@ -352,23 +353,36 @@ main .hero {
     padding: 15px;
 }
 
-
-/* .footer-content .socials {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-} */
-
 .footer-content .socials {
-    /* background-color: red; */
+    display: inline-block;
     margin: auto;
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-between; */
-    /* padding: 50px; */
+    /* padding: 5px; */
+    /* flex-direction: row; */
+    /* flex: 1; */
+}
+
+.footer-content .socials a {
+    color: white;
+    margin-right: 1.5em;
+    border: 1px solid white;
+    /* height: 25px; */
+    /* width: 35px; */
+    border-radius: 30px;
+    font-size: 10px;
+    padding: 0.25em;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.footer-content .socials a:hover {
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
 }
 
 @media only screen and (max-width: 375px) {
+    /* header .logo {
+        width: 5em;
+    } */
     main .genblock {
         display: flex;
         flex-direction: column;
@@ -408,16 +422,19 @@ main .hero {
         display: flex;
         /* background-color: orange; */
         padding: 0px;
+        padding-top: 70px;
         margin: 0;
         flex-direction: column;
     }
     .footer .footer-content .info {
         /* background-color: purple; */
+        font-size: 10px;
         padding: 10px;
         width: 100%;
     }
     .footer .footer-content .links {
         /* background-color: red; */
+        font-size: 10px;
         display: flex;
         padding: 0;
         width: 100%;
@@ -432,7 +449,6 @@ main .hero {
         flex-direction: row;
         justify-content: space-between;
         margin: auto;
-        /* background-color: blue; */
         flex: 1;
         justify-content: center;
     }
