@@ -8,8 +8,9 @@ body {
     background-color: hsl(193, 100%, 96%);
     background-image: url('images/bg-hero-desktop.svg');
     background-blend-mode: overlay;
-    /* font-family: 'Inconsolata', monospace; */
+/*     font-family: 'Inconsolata', monospace; */
     font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     /* overflow: auto; */
     /* position: relative; */
 }
