@@ -391,7 +391,7 @@ main .hero {
         text-align: center;
     }
     main .hero {
-        text-align: center
+      /*  text-align: center */
         display: flex;
         margin:auto;
         flex:1;
@@ -400,7 +400,8 @@ main .hero {
         align-items: center; */
     }
     .hero .gt {
-       /* text-align: center;*/
+        font-size: 8pm
+        text-align: center;
         display: flex;
         flex-direction: column-reverse;
     }
