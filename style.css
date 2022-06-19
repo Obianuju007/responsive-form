@@ -400,7 +400,7 @@ main .hero {
         align-items: center; */
     }
     .hero .gt {
-        text-align: center;
+       /* text-align: center;*/
         display: flex;
         flex-direction: column-reverse;
     }
@@ -418,8 +418,9 @@ main .hero {
         position: relative;
         top: 22vh;
         z-index: 99;
-        width: 80%;
+        width: 90%;
         text-align: center;
+        font-size: 12px
         padding: 20px;
         border: none;
         border-radius: 5px;
