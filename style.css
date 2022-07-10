@@ -267,7 +267,7 @@ main .hero {
     position: relative;
     top: 22vh;
     z-index: 99;
-    cursor: pointer;
+/*     cursor: pointer; */
     width: 50%;
     /* margin: auto; */
     /* bottom: 50%; */
@@ -282,6 +282,7 @@ main .hero {
 .box button {
     margin-top: 20px;
     padding: 15px;
+    cursor: pointer;
     padding-left: 30px;
     padding-right: 30px;
     color: white;
