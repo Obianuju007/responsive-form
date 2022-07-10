@@ -488,6 +488,7 @@ main .hero {
     .footer .footer-content .info {
         /* background-color: purple; */
         font-size: 10px;
+        color: white;
         padding: 10px;
         width: 100%;
     }
