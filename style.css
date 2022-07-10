@@ -280,7 +280,7 @@ main .hero {
     background-color: white;
 }
 
-.hero .box:hover {
+.hero .box button:hover {
     background-color: hsla(322, 100%, 66%, 0.397);
 }
 
