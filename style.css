@@ -279,6 +279,17 @@ main .hero {
     border-radius: 5px;
     background-color: white;
 }
+.box button {
+    margin-top: 20px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    /* width: 40%; */
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 20px;
+}
 
 .box button:hover {
     background-color: hsla(322, 100%, 66%, 0.397);
