@@ -23,6 +23,7 @@ header {
 header button {
     border: none;
     padding: 15px;
+    cursor: pointer;
     border-radius: 20px;
     font-weight: bold;
     margin-left: auto;
@@ -266,6 +267,7 @@ main .hero {
     position: relative;
     top: 22vh;
     z-index: 99;
+    cursor: pointer;
     width: 50%;
     /* margin: auto; */
     /* bottom: 50%; */
@@ -276,6 +278,10 @@ main .hero {
     border: none;
     border-radius: 5px;
     background-color: white;
+}
+
+.hero .box:hover {
+    background-color: hsla(322, 100%, 66%, 0.397);
 }
 
 .footer {
