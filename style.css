@@ -68,7 +68,8 @@ main button {
 
 main button:hover {
     color: white;
-    background-color: hsla(322, 100%, 66%, 0.397);
+    cursor: pointer;
+/*     background-color: hsla(322, 100%, 66%, 0.397); */
 }
 
 main .hero {
