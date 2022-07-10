@@ -55,7 +55,7 @@ main .genblock .block2 {
     padding: 30px;
 }
 
-main button {
+.block1 button {
     margin-top: 20px;
     padding: 15px;
     padding-left: 30px;
@@ -67,7 +67,7 @@ main button {
     border-radius: 20px;
 }
 
-main button:hover {
+.block1 button:hover {
     color: white;
     cursor: pointer;
 /*     background-color: hsla(322, 100%, 66%, 0.397); */
@@ -280,7 +280,7 @@ main .hero {
     background-color: white;
 }
 
-.hero .box button:hover {
+.box button:hover {
     background-color: hsla(322, 100%, 66%, 0.397);
 }
 
