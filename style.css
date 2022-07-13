@@ -16,8 +16,9 @@ body {
 }
 
 header {
-    padding: 1em;
+    padding: 0.5em;
     display: flex;
+    width:90%;
 }
 
 header button {
