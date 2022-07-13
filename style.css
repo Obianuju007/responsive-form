@@ -18,7 +18,7 @@ body {
 header {
     padding: 0.5em;
     display: flex;
-    width:90%;
+    /* width:90%; */
 }
 
 header button {
@@ -35,6 +35,8 @@ main .genblock {
     width: 90%;
     display: flex;
     flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
     /* flex: 1; */
     /* padding: 10px; */
     /* background-color: yellow; */
