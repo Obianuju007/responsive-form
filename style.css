@@ -488,7 +488,8 @@ main .hero {
         text-align: center;
         font-size: 8px;
         padding: 20px;
-        border: none;
+        border: 1px solid rgba(0,0,0,0.082);
+        box-shadow: rgba(247,244,244,0.5) 0px 0px 2px;
         border-radius: 15px;
         background-color: white;
     }
