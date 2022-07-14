@@ -434,7 +434,7 @@ main .hero {
         text-align: center;
         display: flex;
         flex-direction: column-reverse;
-        box-shadow: rgba(196, 193, 193, 0.74) 0px 5px 10px;
+        box-shadow: rgba(196, 193, 193, 0.74) 0px 5px 10px 5px;
     }
     .hero .gt .gt-svg {
         width: 100%;
@@ -449,7 +449,7 @@ main .hero {
         text-align: center;
         display: flex;
         flex-direction: column;
-        box-shadow: rgba(196, 193, 193, 0.74) 0px 5px 10px;
+        box-shadow: rgba(196, 193, 193, 0.74) 0px 5px 10px 5px;
     }
     .hero .fc .fc-svg {
         width: 100%;
@@ -464,7 +464,7 @@ main .hero {
         text-align: center;
         display: flex;
         flex-direction: column-reverse;
-        box-shadow: rgba(196, 193, 193, 0.74) 0px 5px 10px;
+        box-shadow: rgba(196, 193, 193, 0.74) 0px 5px 10px 5px;
     }
     .hero .yu .yu-text {
         width: 100%;
