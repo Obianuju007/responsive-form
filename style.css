@@ -402,7 +402,7 @@ main .hero {
     header button {
         border: none;
         color: black;
-        padding: 10px;
+        padding: 9px;
         border-radius: 20px;
         font-weight: bold;
         padding-left: 30px;
@@ -441,6 +441,9 @@ main .hero {
     .hero .gt .gt-text {
         width: 100%;
     }
+    .hero .gt .gt-text p {
+        color: rgba(0, 0, 0, 0.425);
+    }
     .hero .fc {
         text-align: center;
         display: flex;
@@ -452,6 +455,9 @@ main .hero {
     .hero .fc .fc-text {
         width: 100%;
     }
+    .hero .fc .fc-text p {
+        color: rgba(0, 0, 0, 0.425);
+    }
     .hero .yu {
         text-align: center;
         display: flex;
@@ -462,6 +468,9 @@ main .hero {
     }
     .hero .yu .yu-svg {
         width: 100%;
+    }
+    .hero .yu .yu-text p {
+        color: rgba(0, 0, 0, 0.425);
     }
     .hero .box {
         position: relative;
